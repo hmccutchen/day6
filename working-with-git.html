@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+  <h1>Working with Git</h1>
+  <h3>1. add files to your project</h3>
+  <p>This can be done via the touch command or though the interface as usual </p>
+  <p>Example: <code>touch index.html && touch main.css</code></p>
+
+  <h3>2. Add new or modified files to staging</h3>
+  <p>Once we add new files or modify existing files we can tell git to track them by adding them to staging for the next commit (thinkof cmmits as checkpoints) This will let git know what files the next checkpoint will consit of.</p>
+  <p><code>git add < filename ></code></p>
+  <p>OR</p>
+  <p><code> git add .</code></p>
+  <p>Your files are now on stage to be included in the next commit/checkpoint</p>
+  <h3>3. Add a commit and a commit message</h3>
+  <p>with your changes staged, you can create the checkpoint in your with the following command</p>
+  <code>git commit -m "commit message"</code>
+  <p>This command creates the checkpoint for git! pretty simple</p>
+  <h3>4. push your code</h3>
+  <p>Finally push your changes up to Github with the following command:</p>
+  <code>git push</code>
+  <p>If you get an error you may have not initialized your git repo w/ <code>git init</code><br> or you may have initialized, but you have not yet modified any files since then using: </p>
+  <code>git add < filename ></code><p>and</p><code>git commit -m "commit message"</code>
+
+</body>
+</html>

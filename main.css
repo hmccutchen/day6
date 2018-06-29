@@ -4,5 +4,19 @@ html{
   background-color: #333;
   color: #fff;
   margin:0 auto;
-  padding-top: 15px;
+  padding-top: 25px 25px;
+}
+
+code{
+  background-color: pink;
+  color: red;
+}
+
+a{
+  color: white;
+
+}
+
+a:hover{
+  background-color: gray;
 }
